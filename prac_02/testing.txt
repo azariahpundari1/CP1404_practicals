@@ -1,0 +1,12 @@
+Starting price: $10.00
+On day 1 $9.68
+On day 2 $9.54
+On day 3 $9.17
+On day 4 $8.78
+On day 5 $8.39
+On day 6 $19.27
+On day 7 $28.13
+On day 8 $67.50
+On day 9 $67.48
+On day 10 $65.11
+On day 11 $139.67
