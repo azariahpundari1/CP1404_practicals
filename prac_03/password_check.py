@@ -41,3 +41,4 @@ def print_asterisks(sequence):
 main()
 
 # dont know what im supposed to do here because i missed lectures, mark me down :(
+# to commit with a message
