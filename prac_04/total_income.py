@@ -1,6 +1,6 @@
 """
-CP1404/CP5632 Practical - Suggested Solution
-Cumulative total income program
+CP1404/CP5632 Practical
+Starter code for cumulative total income program
 """
 
 
@@ -10,23 +10,15 @@ def main():
     number_of_months = int(input("How many months? "))
 
     for month in range(1, number_of_months + 1):
-        income = float(
-            input("Enter income for month {}: ".format(month)))
+        income = float(input("Enter income for month " + str(month) + ": "))
         incomes.append(income)
 
-    print_report(incomes)
-
-
-def print_report(incomes):
-    """Print report based on incomes."""
-    # Note that we do not need to pass in number_of_months
-    # because we know the length of the incomes list
     print("\nIncome Report\n-------------")
     total = 0
-    for month, income in enumerate(incomes):
+    for month in range(1, number_of_months + 1):
+        income = incomes[month - 1]
         total += income
-        print("Month {:2} - Income: ${:10.2f} \
-        Total: ${:10.2f}".format(month + 1, income, total))
+        print("Month {:2} - Income: ${:10.2f} Total: ${:10.2f}".format(month, income, total))
 
 
 main()
